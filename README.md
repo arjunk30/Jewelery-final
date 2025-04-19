@@ -41,7 +41,7 @@ Image uploads handled via Multer to store product images on the server.
 
 NOTE: This project is made by common js.
 
-##### Installation
+#### Installation
 
 ->Clone the repo
   git clone https://github.com/your-username/your-project.git
