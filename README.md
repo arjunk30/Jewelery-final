@@ -44,7 +44,7 @@ NOTE: This project is made by common js.
 #### Installation
 
 ->Clone the repo
-  git clone https://github.com/your-username/your-project.git
+  git clone https://github.com/arjunk30/Jewelery-final
 
 ->Navigate into the project directory
   cd your-project
