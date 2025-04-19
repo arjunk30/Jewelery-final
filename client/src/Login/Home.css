@@ -1,0 +1,45 @@
+.jewellery-website {
+    overflow-x: hidden;
+  }
+  
+  .hero-section {
+    padding: 6rem 0;
+    background-color: #f8f9fa;
+  }
+  
+  .card {
+    transition: transform 0.3s ease;
+    border-radius: 0.5rem;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .social-icons a {
+    font-size: 1.25rem;
+    transition: opacity 0.3s;
+  }
+  
+  .social-icons a:hover {
+    opacity: 0.7;
+    text-decoration: none;
+  }
+  
+  .bg-primary {
+    background-color: #8b6b4f !important; /* Gold-like color */
+  }
+  
+  .btn-primary {
+    background-color: #8b6b4f;
+    border-color: #8b6b4f;
+  }
+  
+  .btn-primary:hover {
+    background-color: #755a43;
+    border-color: #755a43;
+  }
+  
+  .text-primary {
+    color: #8b6b4f !important;
+  }

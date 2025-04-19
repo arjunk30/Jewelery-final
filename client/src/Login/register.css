@@ -1,0 +1,82 @@
+/* body {
+    background-color: rgb(81, 188, 188);
+    font-family: "Open Sans", sans-serif;
+  } */
+  
+  .register {
+    width: 400px;
+    font-size: 16px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 5px 6px #00000036;
+    border-radius: 22px;
+    overflow: hidden;
+    transition: 2s;
+    background-color: #001a34;
+  }
+  
+  .register-header {
+    background: rgb(0, 55, 109);
+    padding: 20px;
+    font-size: 1.4em;
+    text-align: center;
+    /* text-transform: uppercase; */
+    color: #ffffff;
+  }
+  
+  .register-container {
+    background: rgb(0, 55, 109);
+    padding: 40px 30px;
+    /* transition: 2s; */
+  }
+  
+  .register-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+  }
+  
+  .register-form input {
+    box-sizing: border-box;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #c0c0c03b;
+    padding: 14px;
+    font-size: 0.95em;
+    color: #fff;
+    background-color: transparent;
+    outline: none;
+  }
+  
+  .register-form input::placeholder {
+    color: #aaa;
+  }
+  
+  .register-form input:focus {
+    border-color: #888;
+  }
+  
+  .register-form input[type="submit"] {
+    background: rgb(17, 79, 141);
+    color: white;
+    border: none;
+    border-radius: 22px;
+    cursor: pointer;
+    padding: 12px 24px;
+    width: 200px;
+    margin: 20px auto 0 auto;
+    transition: background 0.3s ease;
+  }
+  
+  .register-form input[type="submit"]:hover {
+    background: rgb(20, 100, 180);
+  }
+  .register-footer{
+    color: #fff;
+  }
+  .register-link{
+    color: #ff0000;
+    text-decoration: none;
+  }

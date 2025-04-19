@@ -1,0 +1,35 @@
+.admin-dashboard {
+    display: flex;
+    min-height: 100vh;
+  }
+  
+  .sidebar {
+    width: 250px;
+    min-height: 100vh;
+  }
+  
+  .main-content {
+    flex: 1;
+    background-color: #f8f9fa;
+    min-height: 100vh;
+  }
+  
+  @media (max-width: 768px) {
+    .admin-dashboard {
+      flex-direction: column;
+    }
+    
+    .sidebar {
+      width: 100%;
+      min-height: auto;
+    }
+  }
+  
+  .img-thumbnail {
+    transition: all 0.3s ease;
+  }
+  
+  .img-thumbnail:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  }

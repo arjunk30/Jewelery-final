@@ -1,0 +1,26 @@
+.admin-wrapper {
+    display: flex;
+    min-height: 100vh;
+  }
+  
+  .sidebar {
+    width: 250px;
+    min-height: 100vh;
+  }
+  
+  .main-content {
+    flex: 1;
+    padding: 20px;
+    background-color: #f8f9fa;
+  }
+  
+  @media (max-width: 768px) {
+    .admin-wrapper {
+      flex-direction: column;
+    }
+    
+    .sidebar {
+      min-height: auto;
+      width: 100%;
+    }
+  }
